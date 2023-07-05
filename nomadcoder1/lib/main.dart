@@ -1,5 +1,5 @@
 // ignore: unnecessary_import
-import 'package:dart_rps_game/widgets/button.dart';
+import 'package:nomadcoder1/widgets/button.dart';
 import 'package:flutter/material.dart';
 
 void main() {

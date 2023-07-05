@@ -1,4 +1,4 @@
-package com.example.dart_rps_game
+package com.example.nomadcoder1
 
 import io.flutter.embedding.android.FlutterActivity
 
