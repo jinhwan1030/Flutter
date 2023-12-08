@@ -1,8 +1,12 @@
-import 'core/theme/theme_data.dart';
-import 'presentation/routes/routes.dart';
 import 'package:flutter/material.dart';
 
+import 'core/theme/theme_data.dart';
+import 'presentation/routes/routes.dart';
+import 'service_locator.dart';
+
 void main() {
+  setLocator();
+
   runApp(const MainApp());
 }
 
