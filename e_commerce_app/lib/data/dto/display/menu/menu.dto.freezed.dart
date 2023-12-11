@@ -21,9 +21,11 @@ MenuDto _$MenuDtoFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$MenuDto {
   String get title => throw _privateConstructorUsedError;
+
   int get tabId => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+
   @JsonKey(ignore: true)
   $MenuDtoCopyWith<MenuDto> get copyWith => throw _privateConstructorUsedError;
 }
@@ -32,6 +34,7 @@ mixin _$MenuDto {
 abstract class $MenuDtoCopyWith<$Res> {
   factory $MenuDtoCopyWith(MenuDto value, $Res Function(MenuDto) then) =
       _$MenuDtoCopyWithImpl<$Res, MenuDto>;
+
   @useResult
   $Res call({String title, int tabId});
 }
@@ -43,6 +46,7 @@ class _$MenuDtoCopyWithImpl<$Res, $Val extends MenuDto>
 
   // ignore: unused_field
   final $Val _value;
+
   // ignore: unused_field
   final $Res Function($Val) _then;
 
@@ -70,6 +74,7 @@ abstract class _$$MenuDtoImplCopyWith<$Res> implements $MenuDtoCopyWith<$Res> {
   factory _$$MenuDtoImplCopyWith(
           _$MenuDtoImpl value, $Res Function(_$MenuDtoImpl) then) =
       __$$MenuDtoImplCopyWithImpl<$Res>;
+
   @override
   @useResult
   $Res call({String title, int tabId});
@@ -156,8 +161,10 @@ abstract class _MenuDto implements MenuDto {
 
   @override
   String get title;
+
   @override
   int get tabId;
+
   @override
   @JsonKey(ignore: true)
   _$$MenuDtoImplCopyWith<_$MenuDtoImpl> get copyWith =>
